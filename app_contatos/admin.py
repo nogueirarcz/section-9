@@ -12,7 +12,7 @@ class ContatoAdmin(admin.ModelAdmin):
 
     list_display_links = ('nome',)
 
-    list_filter = ('nome', 'sobrenome', 'categoria')
+#    list_filter = ('nome', 'sobrenome', 'categoria')
 
     list_per_page = 10
 
